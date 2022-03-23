@@ -1,0 +1,113 @@
+@import url(common/reset.css);
+
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .sec-con{
+  flex: 0 1 1200px;
+  max-width: 1000px;
+  height: 500px;
+  position: relative;
+  /* margin: 0 auto; */
+  /* border: 1px solid; */
+  background-color: rgb(240, 240, 240);
+  overflow: hidden;
+}
+
+/* gallery */
+.section .sec-con .gallery{
+  width: 500%;
+  height: inherit;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  position: absolute;
+}
+.section .sec-con .gallery ul{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+.section .sec-con .gallery ul li{
+  flex:1;
+  height: inherit;
+ text-align: center;
+ line-height: 500px;
+ font-size: 30px;
+ /* border: 1px solid; */
+ box-sizing: border-box;
+ color: #fff;
+ font-size: 12px;
+ letter-spacing: 0.6vw;
+}
+
+
+/* center-btn */
+.section .sec-con .center-btn{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.section .sec-con .center-btn span{
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  /* border: 1px solid #fff; */
+  background-color: rgba(255, 255, 255, 0.507);
+  /* background-color: #000; */
+  box-sizing: border-box;
+}
+.section .sec-con .center-btn span:hover{
+  /* background-color: rgb(255, 83, 189); */
+  background-color: #fff;
+}
+
+/* bcon */
+.section .sec-con .bcon{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding:  20px 0;
+  display: flex;
+  justify-content:center;
+}
+.section .sec-con .bcon .items{
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+.section .sec-con .bcon .items ul{
+  display: flex;
+  justify-content:space-between;
+  gap: 15px;
+}
+.section .sec-con .bcon .items ul li{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  /* border: 1px solid #fff; */
+  background-color: rgba(255, 255, 255, 0.507);
+  box-sizing: border-box;
+}
+.section .sec-con .bcon .items ul li:hover{
+  /* background-color: rgb(255, 83, 189); */
+  background-color: #fff;
+}
+.on{
+  background-color: rgb(218, 153, 193);
+  /* background-color: rgba(216, 215, 216, 0.507); */
+}
